@@ -25,7 +25,6 @@ RUN apt-get update && \
       unzip \
       man \
       man-db \
-      gcc-doc \
       && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
